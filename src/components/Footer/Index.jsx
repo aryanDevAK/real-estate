@@ -146,7 +146,7 @@ export default function Footer() {
             <Link
               underline="none"
               sx={{ color: "#1F93FF" }}
-              href="https://github.com/aryanDevAK/real-estate"
+              href="https://github.com/aryanDevAK/real-estates"
               target="_blank"
             >
               WINNERS
