@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .hm-pg {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .hm-pg::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 95vh;
+    // the below background url code doesn't work properly
+    // background: url('/public/assets/image/background-small.jpg') no-repeat center center/cover;
+    opacity: .7;
+}
+
+.hm-pg .hm-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 95vh;
+    opacity: .7;
+  }
+  
+  .home {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: bisque;
+    align-items: center;
+    background-color: black;
+    z-index: inherit;
+  }
+  
+  .homebox {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .homebox {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .homebox {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 830px) {
+    .homebox {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 456px) {
+    .homebox {
+      width: 95%;
+    }
+  }
+  
+  @media (max-width: 356px) {
+    .homebox {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .homebox {
+      width: 100%;
+    }
+  }
+  
