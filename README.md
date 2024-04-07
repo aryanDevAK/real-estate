@@ -24,11 +24,3 @@ Contributions from the community are highly valued and encouraged, as they play 
 3. Commit your Changes (`git commit -m "changes"`)
 4. Push to the Branch (`git push origin feature/FeatureBranch`)
 5. Create a Pull Request
-
-
-## Contributors 
-
-<a href = "https://github.com/Yana-Gupta/real-estate-frontend/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=Yana-Gupta/real-estate-frontend"/>
-</a>
-
